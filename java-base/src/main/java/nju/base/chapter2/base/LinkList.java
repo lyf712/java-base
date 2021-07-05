@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class LinkList {
     ListNode head=new ListNode();
 
-    // 头插法
+    // 头插法创建
     void createList(){
         Scanner scan =new Scanner(System.in);
         int val;
@@ -23,7 +23,7 @@ public class LinkList {
         }
     }
 
-    // 尾插入
+    // 尾插入创建
     void creatListRail(){
         Scanner scan =new Scanner(System.in);
         int val;
@@ -34,6 +34,22 @@ public class LinkList {
         }
     }
 
+
+    // 插入节点
+
+    /**
+     * 插入思路：
+     * 先插入该节点的Next节点，在该点的next指向该节点
+     * @param val
+     * @param pos
+     */
+    void insertNode(int val,int pos){
+        //LinkNode p = head;
+
+
+    }
+
+
     void outPut(){
         ListNode p = head.next;
         while(p!=null){
@@ -41,6 +57,7 @@ public class LinkList {
             p=p.next;
         }
     }
+
 
 
 
