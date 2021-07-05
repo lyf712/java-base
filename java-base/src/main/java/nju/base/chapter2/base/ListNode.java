@@ -1,4 +1,4 @@
-package nju.base.chapter2;
+package nju.base.chapter2.base;
 
 /**
  * @AUTHOR LYF

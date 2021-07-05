@@ -1,8 +1,8 @@
-package nju.base.chapter2;
+package nju.base.chapter2.base;
+
+import nju.base.chapter2.base.LinearList;
 
 import java.util.Arrays;
-
-import static java.lang.System.exit;
 
 /**
  * @AUTHOR LYF
@@ -10,7 +10,7 @@ import static java.lang.System.exit;
  * @VERSION 1.0
  * @DESC
  */
-public class SeqList<E> implements LinearList<E>{
+public class SeqList<E> implements LinearList<E> {
     // 顺序表
 
     int size=10;//容量(最大)

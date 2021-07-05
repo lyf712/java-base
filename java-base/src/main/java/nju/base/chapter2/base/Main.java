@@ -1,6 +1,4 @@
-package nju.base.chapter2;
-
-import java.util.Random;
+package nju.base.chapter2.base;
 
 /**
  * @AUTHOR LYF

@@ -1,4 +1,4 @@
-package nju.base.chapter2;
+package nju.base.chapter2.base;
 
 import java.util.ArrayList;
 import java.util.List;
