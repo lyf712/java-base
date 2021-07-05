@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="helpton-consumer2" />
+        <module name="hystrix" />
+        <module name="helpton-consumer1" />
+        <module name="helpton-server" />
+        <module name="helpton-provider" />
+        <module name="helpton-ribbon" />
+        <module name="zuul-demo" />
+        <module name="ribbon-load-balance" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="helpton-consumer1" options="-parameters" />
+      <module name="helpton-consumer2" options="-parameters" />
+      <module name="helpton-provider" options="-parameters" />
+      <module name="helpton-ribbon" options="-parameters" />
+      <module name="helpton-server" options="-parameters" />
+      <module name="zuul-demo" options="-parameters" />
+    </option>
+  </component>
+</project>

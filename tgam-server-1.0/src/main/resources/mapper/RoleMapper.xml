@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lyf.dao.mapper.RoleMapper">
+
+    <resultMap id="roleBaseResult" type="com.lyf.dao.domain.Role">
+        <result column="id" jdbcType="INTEGER" property="id"/>
+        <result column="role_id" jdbcType="VARCHAR" property="role_id"/>
+        <result column="name" jdbcType="VARCHAR" property="name"/>
+        <result column="description" jdbcType="VARCHAR" property="description"/>
+        <result column="status" jdbcType="INTEGER" property="status"/>
+        <result column="createTime" jdbcType="DATE" property="create_time" />
+        <result column="updateTime" jdbcType="DATE" property="update_time" />
+    </resultMap>
+
+
+    <insert id="addRole" parameterType="com.lyf.dao.domain.Role">
+        INSERT role values (null ,#{userId},#{roleId})
+    </insert>
+
+    <delete id="deleteRoleById" parameterType="java.lang.String">
+        DELETE FROM role WHERE role_id = #{roleId}
+    </delete>
+
+
+</mapper>

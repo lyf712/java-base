@@ -1,0 +1,11 @@
+14:12:02.790 [main] INFO  com.lyf.demo.DemoApplicationTests  - Starting DemoApplicationTests using Java 15 on promote.cache-dns.local with PID 41440 (started by a674619459 in /Users/a674619459/Desktop/近期项目/tgam/tgam-server-1.0)
+14:12:02.802 [main] INFO  com.lyf.demo.DemoApplicationTests  - No active profile set, falling back to default profiles: default
+14:12:58.045 [main] INFO  com.lyf.demo.DemoApplicationTests  - Starting DemoApplicationTests using Java 15 on promote.cache-dns.local with PID 41620 (started by a674619459 in /Users/a674619459/Desktop/近期项目/tgam/tgam-server-1.0)
+14:12:58.056 [main] INFO  com.lyf.demo.DemoApplicationTests  - No active profile set, falling back to default profiles: default
+14:13:02.103 [main] INFO  com.lyf.demo.DemoApplicationTests  - Started DemoApplicationTests in 4.389 seconds (JVM running for 10.953)
+14:14:02.752 [main] INFO  com.lyf.demo.DemoApplicationTests  - Starting DemoApplicationTests using Java 15 on promote.cache-dns.local with PID 41818 (started by a674619459 in /Users/a674619459/Desktop/近期项目/tgam/tgam-server-1.0)
+14:14:02.764 [main] INFO  com.lyf.demo.DemoApplicationTests  - No active profile set, falling back to default profiles: default
+14:14:07.052 [main] INFO  com.lyf.demo.DemoApplicationTests  - Started DemoApplicationTests in 4.635 seconds (JVM running for 11.242)
+14:15:52.866 [main] INFO  com.lyf.demo.DemoApplicationTests  - Starting DemoApplicationTests using Java 15 on promote.cache-dns.local with PID 42167 (started by a674619459 in /Users/a674619459/Desktop/近期项目/tgam/tgam-server-1.0)
+14:15:52.879 [main] INFO  com.lyf.demo.DemoApplicationTests  - No active profile set, falling back to default profiles: default
+14:15:57.862 [main] INFO  com.lyf.demo.DemoApplicationTests  - Started DemoApplicationTests in 5.388 seconds (JVM running for 11.918)
